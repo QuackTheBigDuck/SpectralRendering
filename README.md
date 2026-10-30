@@ -35,13 +35,6 @@ The first launch takes a few seconds while Numba compiles. After that it is cach
 
 The side panel has sliders for lamp temperature, dispersion, film thickness and exposure. Aperture, bounces, white balance and a brute-force toggle are under Advanced.
 
-## Features
-
-- Spectral rendering: one wavelength per path, converted to CIE XYZ and then sRGB
-- Dispersive glass (Cauchy equation), thin-film interference, blackbody lamp
-- Binned-SAH BVH with ordered stack traversal
-- Next-event estimation, Russian roulette, Fresnel, thin-lens depth of field
-
 ## Headless options
 
 `--scene`, `--width`, `--height`, `--spp`, `--depth`, `--temp`, `--dispersion`, `--exposure`, `--wb`, `--out`
